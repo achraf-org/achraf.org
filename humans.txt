@@ -1,0 +1,20 @@
+# Please read http://humanstxt.org
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Achraf El Ghinoussi -- Developer -- https://twitter.com/afaithraf
+
+
+# THANKS
+
+    html5boilerplate -- https://html5boilerplate.com/
+
+# SITE
+    
+    Last update: YYYY/MM/DD 
+    Started: 2021/03/19 
+
+    Technology: CSS3, HTML5
+    Components: jQuery, Normalize.css, GSAP
+    Software: Visual Studio Code

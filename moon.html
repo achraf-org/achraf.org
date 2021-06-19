@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <title>Eclipse - Moon</title>
+  <meta name="description" content="Put a description here">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- How our link is displayed on social medias -->
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <!-- Place icon.png in the root directory for apple devices-->
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <!-- Loading the font from google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!-- Normalize for a modern CSS reset | github.com/necolas/normalize.css -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="css/main.css?version=0.0.0">
+
+  <!-- Theme color for mobile browsers -->
+  <meta name="theme-color" content="#060606">
+</head>
+
+<body data-theme="moon">
+  <style>
+    
+    body {
+      color: #060606;
+      background: #fff;
+    }
+
+    .loading-circle {
+      background: #060606;
+    }
+
+    .loading-circle span, .home-container {
+      color: #fff;
+    }
+    .home {
+      max-width: 1200px;
+    }
+    .home-image img {
+      box-shadow: none;
+    }
+  </style>
+  <!-- LOADING SCENE -->
+  <div class="loading-container">
+    <div class="loading-circle">
+      <span class="loading-text1">Welcome</span>
+      <span class="loading-text2">Eclipse</span>
+    </div>
+  </div>
+
+  <!-- LOADING SECTION -->
+  <div class="home-container">
+    <div class="home">
+      <div class="home-content">
+        <h1><span>I am Achraf</span> <span>Elghinoussi</span></h1>
+        <p>Front-End Developer | Web Designer</p>
+        <a href="#contactme" class="btn">
+          <span>CONTACT ME</span>                     
+          <span class="bg"></span>
+        </a>
+      </div>
+      <div class="home-image">
+        <!-- For best results use a picture with the following dimensions (width: 1600px, height: 1000px) -->
+        <img src="img/f.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <!-- Js libraries -->
+  <script src="js/vendor/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+
+  <!-- Our main js script -->
+  <script src="js/main.js?version=0.0.1b"></script>
+
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
